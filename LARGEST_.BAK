@@ -1,0 +1,19 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int n1,n2,l;
+clrscr();
+cout<<endl<< "enter two number"<<endl;
+cin>>n1>>n2;
+if(n1>n2)
+ {
+   l=n1;
+ }
+ else
+ {
+ l=n2;
+ }
+ cout<<endl<<"largest number="<<l;
+ getch();
+}

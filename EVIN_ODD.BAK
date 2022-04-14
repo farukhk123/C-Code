@@ -1,0 +1,18 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+int num;
+clrscr();
+cout<<endl<<"enter a number"<<endl;
+cin>>num;
+if(num%2==0)
+ {
+  cout<<endl<<"is evin="<<num;
+ }
+if(num%2!==0)
+ {
+   cout<<endl<<"is odd="<<num;
+ }
+getch();
+}

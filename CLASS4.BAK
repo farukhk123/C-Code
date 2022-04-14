@@ -1,0 +1,30 @@
+#include<iostream.h>
+#include<conio.h>
+class pwr
+{
+ private:
+ int num;
+ public:
+ void input();
+ void output();
+};
+void pwr::input()
+{
+ cout<<endl<<"enter a number"<<endl;
+ cin>>num;
+}
+ int calc(int n)
+{
+ return n*n;
+}
+ void powr::output()
+ {
+  cout<<endl<<"square="<<calc(num);
+void main()
+{
+  pwr p1;
+  clrscr();
+  p1.input();
+  p1.output();
+  getch();
+}
